@@ -1,13 +1,37 @@
+body {
+    background: gray;
+    color: white;
+    box-sizing: border-box;
+}
+
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .title {
     text-align: center;
+    color: white;
 }
 
 .main-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.menu {
+    background-color: lightgrey;
+    margin: auto;
+    padding: 8px;
+    color: black;
+    width: 400px;
+}
+
+.home {
+    text-align: center;
+    background-color: lightgrey;
+    color: black;
+    margin: auto;
+    padding: 8px;
+    width: 100px;
 }
